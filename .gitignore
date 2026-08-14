@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+
+# Generated at runtime — not part of the source project
+recordings/*.mp4
+screenshots/*.png
+!recordings/.gitkeep
+!screenshots/.gitkeep

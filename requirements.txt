@@ -1,0 +1,10 @@
+# Verified working together on Python 3.10-3.12.
+#
+# IMPORTANT: mediapipe>=0.10.15 dropped the legacy `mp.solutions.hands` API
+# in favor of the newer Tasks API (mp.tasks.vision.HandLandmarker), which
+# requires downloading a separate .task model file. This project uses the
+# classic, dependency-free solutions API, so mediapipe is pinned below 0.10.15.
+opencv-python>=4.9.0
+mediapipe>=0.10.13,<0.10.15
+numpy>=1.26.0
+pygame>=2.5.0
